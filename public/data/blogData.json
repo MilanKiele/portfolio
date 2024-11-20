@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "date": "2024-11-19",
+        "header": "Understanding AI in Web Development",
+        "message": "Artificial Intelligence is transforming web development. Learn how AI is helping to automate tasks and improve user experience.",
+        "image": "",
+        "link": "https://your-link.com/ai-web-development"
+    },
+    {
+        "id": 2,
+        "date": "2024-11-18",
+        "header": "Blockchain Beyond Cryptocurrency",
+        "message": "Blockchain technology is not just for cryptocurrencies. This article explores its potential for various industries.",
+        "image": "",
+        "link": "https://your-link.com/blockchain"
+    },
+    {
+        "id": 3,
+        "date": "2024-11-17",
+        "header": "The Future of Content Creation with AI",
+        "message": "AI tools are revolutionizing content creation. Learn how AI is helping creators produce content faster and more efficiently.",
+        "image": "",
+        "link": "https://your-link.com/ai-content-creation"
+    },
+    {
+        "id": 4,
+        "date": "2024-11-16",
+        "header": "The Role of IT in Modern Business",
+        "message": "IT solutions are essential for business success. Discover how technology is helping businesses streamline operations and grow.",
+        "image": "",
+        "link": "https://your-link.com/it-business"
+    },
+    {
+        "id": 5,
+        "date": "2024-11-15",
+        "header": "Exploring the Metaverse",
+        "message": "The Metaverse is becoming a major trend. This article explains what it is and why businesses should start paying attention.",
+        "image": "",
+        "link": "https://your-link.com/metaverse"
+    }
+]
