@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
 const toEmail = process.env.TO_EMAIL;
 
-export async function POST(req: NextRequest) {
+export async function POST(req: any) {
   const { firstName, lastName, email, message } = await req.json();
 
   try {
