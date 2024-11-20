@@ -2,6 +2,7 @@
 
 import React from "react";
 import DescriptionSection from "./DescriptionSection";
+import Image from "next/image";
 
 const AboutMaiaLabs: React.FC = () => {
   return (
@@ -14,8 +15,10 @@ const AboutMaiaLabs: React.FC = () => {
 
       {/* Centered Image (SVG file) */}
       <div className="flex justify-center mb-8">
-        <img
-          src="/icons/company.svg" // Path to your SVG file
+        <Image
+          src="/icons/company.svg"
+          width={144}
+          height={144}
           alt="MaiaLabs Logo"
           className="w-36 h-36" // Adjust size as needed
         />

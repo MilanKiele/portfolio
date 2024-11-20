@@ -1,14 +1,23 @@
+import Image from "next/image";
 import Link from "next/link";
 
-function ProjectCard({ img, title, desc, link }: any) {
+// Define the types for the props
+interface ProjectCardProps {
+  img: string; // Assuming img is a string (URL or path to the image)
+  title: string; // Title is a string
+  desc: string; // Description is a string
+  link?: string; // link is an optional string (it might not be provided)
+}
+
+function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
   return (
     <div className="relative flex flex-col rounded-xl bg-transparent text-gray-700 shadow-none">
       <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white shadow-lg h-48">
-        <img
+        <Image
           alt={title}
           loading="lazy"
-          width="768"
-          height="768"
+          width={768}
+          height={768}
           decoding="async"
           className="h-full w-full object-cover"
           src={img}
@@ -20,7 +29,7 @@ function ProjectCard({ img, title, desc, link }: any) {
         </a>
         <p className="text-base font-normal text-gray-500 mb-6">{desc}</p>
 
-        {link ? (
+        {link && (
           <Link
             href={link}
             target="_blank"
@@ -29,8 +38,6 @@ function ProjectCard({ img, title, desc, link }: any) {
           >
             See details
           </Link>
-        ) : (
-          <></>
         )}
       </div>
     </div>

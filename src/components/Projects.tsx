@@ -1,7 +1,6 @@
 "use client";
 
 import ProjectCard from "@/components/ProjectCard";
-import Link from "next/link";
 import DescriptionSection from "./DescriptionSection";
 
 const PROJECTS = [

@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 const SocialMediaContainer = ({ size = 36 }) => {
-  const DiscordLink = "https://discord.gg";
-  const TwitchLink = "https://twitch.tv";
+  // const DiscordLink = "https://discord.gg";
+  // const TwitchLink = "https://twitch.tv";
   const YoutubeLink = "https://youtube.com";
   const GithubLink = "https://github.com/maialabs";
   const CompanyLink = "https://maialabs.net";

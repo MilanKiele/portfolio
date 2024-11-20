@@ -1,5 +1,4 @@
 import SocialMediaContainer from "./SocialMediaContainer";
-import Link from "next/link";
 
 const CURRENT_YEAR = new Date().getFullYear();
 

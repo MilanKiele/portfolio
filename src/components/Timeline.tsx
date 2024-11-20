@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import DescriptionSection from "./DescriptionSection";
+import Image from "next/image";
 
 // Timeline data with optional images
 const timelineData = [
@@ -33,8 +34,6 @@ const timelineData = [
 ];
 
 const HorizontalTimeline: React.FC = () => {
-  const [centeredIndex, setCenteredIndex] = useState<number>(1); // Default center index
-
   return (
     <section className="py-12 px-6 relative">
       <DescriptionSection
@@ -64,10 +63,12 @@ const HorizontalTimeline: React.FC = () => {
                 {/* Optional Image below text */}
                 {event.image && (
                   <div className="w-full flex justify-center mt-4">
-                    <img
-                      src={event.image}
+                    <Image
+                      src={event.image} // This can be a URL or an imported image path
                       alt={event.title}
                       className="object-cover max-w-full h-auto rounded-lg shadow-lg"
+                      width={768} // Set a specific width (required for Next.js Image component)
+                      height={432} // Set a specific height (required for Next.js Image component)
                     />
                   </div>
                 )}

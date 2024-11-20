@@ -58,19 +58,14 @@ export function Skills() {
       <DescriptionSection
         title="What I do"
         subtitle="Skills"
-        description="Just your average idiot trying to make things work on the
-          internet—with some success and a surprising amount of quality. Worst
-          entertainer ever, though."
+        description="Just your average idiot trying to make things work on the internet—with some success and a surprising amount of quality. Worst entertainer ever, though."
       />
 
       <div className="skills-list">
         {SKILLS.map((skill, index) => (
-          <SkillCard
-            key={index}
-            icon={skill.icon}
-            title={skill.title}
-            children={skill.children}
-          />
+          <SkillCard key={index} icon={skill.icon} title={skill.title}>
+            {skill.children}
+          </SkillCard>
         ))}
       </div>
     </section>

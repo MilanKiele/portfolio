@@ -52,11 +52,11 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 bg-white bg-opacity-80 backdrop-blur-md border-b border-white/80 w-full rounded-none px-4 py-4 backdrop-saturate-200">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="text-lg font-bold text-gray-900">
+        <Link href="/" className="text-lg font-bold text-gray-900">
           <p className="block antialiased font-sans text-blue-gray-900 text-2xl font-bold">
             Milan Kiele
           </p>
-        </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex items-center gap-4">

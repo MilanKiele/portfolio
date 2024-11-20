@@ -14,7 +14,8 @@ export function SkillCard({ icon: Icon, title, children }: SkillCardProps) {
         <Icon className="h-6 w-6" />
       </div>
       <h3 className="skill-card-title">{title}</h3>
-      <p className="skill-card-description">{children}</p>
+      <p className="skill-card-description">{children}</p>{" "}
+      {/* children will be used here */}
     </div>
   );
 }
