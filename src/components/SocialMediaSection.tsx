@@ -7,7 +7,7 @@ function SocialMediaSection() {
       <div className="relative w-full flex flex-col md:flex-row items-center justify-center py-12 px-8">
         <div className="flex flex-col-reverse w-full h-full lg:flex-row">
           {/* Left side: Skewed Image */}
-          <div className="relative w-[80%] h-[70vh] flex m-auto perspective">
+          <div className="relative w-[80%] h-[70vh] max-h-[500px] flex m-auto perspective">
             <div className="relative w-full h-full transform-style preserve-3d transform rotate-x-12 rotate-y-6">
               <Image
                 src="/image/about.webp"

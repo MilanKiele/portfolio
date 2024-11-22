@@ -24,7 +24,7 @@ const SKILLS = [
     icon: FingerPrintIcon,
     title: "3D Animation using Blender",
     children:
-      "With Blender, I craft stunning 3D animations, bringing ideas to life with detailed modeling, realistic lighting, and captivating motion.",
+      "With Blender, I craft stunning 3D animations, bringing ideas to life with stylized modeling, realistic lighting, and captivating motion.",
   },
   {
     icon: SwatchIcon,
@@ -36,13 +36,13 @@ const SKILLS = [
     icon: HashtagIcon,
     title: "Game Development",
     children:
-      "From concept to execution, I design and develop interactive games, ensuring a fun and immersive experience through rich gameplay mechanics and stunning visuals.",
+      "From concept to execution, I design and develop interactive games, ensuring a fun and immersive experience through rich gameplay mechanics and stunning visuals using Unity.",
   },
   {
     icon: EyeIcon,
     title: "Blockchain Development",
     children:
-      "I specialize in blockchain technology, developing decentralized applications (dApps) and smart contracts to revolutionize the way we interact with digital assets.",
+      "I specialize in blockchain technology, developing decentralized applications (dApps) and smart contracts to revolutionize the way we interact with digital assets using Avalanche or Solana.",
   },
   {
     icon: DocumentTextIcon,
