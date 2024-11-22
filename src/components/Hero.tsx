@@ -5,7 +5,7 @@ import SocialMediaContainer from "./SocialMediaContainer";
 
 function Hero() {
   return (
-    <header className="bg-white bg-opacity-80 backdrop-blur-md py-12">
+    <header className="bg-white bg-opacity-80 backdrop-blur-md py-12 my-8">
       <div className="container mx-auto grid h-full gap-10 w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
           {/* Hero Header */}
