@@ -4,8 +4,8 @@ import DescriptionSection from "./DescriptionSection";
 function SocialMediaSection() {
   return (
     <section>
-      <div className="relative w-full flex flex-col md:flex-row items-center justify-center py-12 px-8">
-        <div className="flex flex-col-reverse w-full h-full lg:flex-row">
+      <div className="relative w-full flex flex-col md:flex-row items-center justify-center py-12 px-8 pt-0">
+        <div className="flex flex-col-reverse w-full h-full lg:flex-row pt-0">
           {/* Left side: Skewed Image */}
           <div className="relative w-[80%] h-[70vh] max-h-[500px] flex m-auto perspective">
             <div className="relative w-full h-full transform-style preserve-3d transform rotate-x-12 rotate-y-6">
