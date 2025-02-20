@@ -1,3 +1,5 @@
+// landing page.tsx
+
 import AboutMaiaLabs from "@/components/AboutMaiaLabs";
 import ContactForm from "@/components/ContactForm";
 import Hero from "@/components/Hero";
@@ -15,9 +17,9 @@ export default function Home() {
       <section id="Goal">
         <Skills />
       </section>
-      <section id="Timeline">
+      {/* <section id="Timeline">
         <Timeline />
-      </section>
+      </section> */}
       <section id="Projects">
         <Projects />
       </section>

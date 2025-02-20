@@ -1,3 +1,5 @@
+// contactform
+
 "use client";
 
 import React, { useState } from "react";
@@ -74,7 +76,7 @@ const ContactForm = () => {
               <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white mb-2">
                 Contact Information
               </h4>
-              <p className="block antialiased font-sans font-normal text-inherit mx-auto mb-8 text-base !text-gray-900">
+              <p className="block antialiased font-sans font-normal text-inherit mx-auto mb-8 text-base text-gray-200">
                 Answer may take a while. Please be patient.
               </p>
               <div className="flex my-2 gap-5">

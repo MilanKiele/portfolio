@@ -1,4 +1,5 @@
-// components/SkillCard.tsx
+// skillcard
+
 import React from "react";
 
 interface SkillCardProps {

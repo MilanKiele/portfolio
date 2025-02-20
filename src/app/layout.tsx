@@ -1,11 +1,8 @@
-// General
-import type { Metadata, Viewport } from "next";
+// layout.tsx
 
-// Styles
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Roboto } from "next/font/google";
-
-// Components
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 

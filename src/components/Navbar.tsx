@@ -1,3 +1,5 @@
+// navbar
+
 "use client";
 
 import React from "react";
@@ -26,10 +28,10 @@ export function Navbar() {
       name: "Skills",
       id: "Goal",
     },
-    {
-      name: "Timeline",
-      id: "Timeline",
-    },
+    // {
+    //   name: "Timeline",
+    //   id: "Timeline",
+    // },
     {
       name: "Projects",
       id: "Projects",
@@ -77,12 +79,14 @@ export function Navbar() {
           className="lg:hidden text-gray-900 hover:bg-gray-900/10 p-2 rounded-lg transition"
           onClick={handleOpen}
         >
+          <span className="sr-only">{open ? "Menü schließen" : "Menü öffnen"}</span>
           {open ? (
             <XMarkIcon className="w-6 h-6" />
           ) : (
             <Bars3Icon className="w-6 h-6" />
           )}
         </button>
+
       </div>
 
       {/* Mobile Navigation */}

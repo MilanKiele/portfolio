@@ -1,8 +1,9 @@
+/* globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* globals.css */
 html {
   scroll-behavior: smooth;
 }

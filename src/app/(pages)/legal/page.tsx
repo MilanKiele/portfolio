@@ -1,3 +1,5 @@
+// Legal page.tsx
+
 import DescriptionSection from "@/components/DescriptionSection";
 
 export default function LegalInformation() {

@@ -1,3 +1,5 @@
+// footer
+
 import SocialMediaContainer from "./SocialMediaContainer";
 
 const CURRENT_YEAR = new Date().getFullYear();

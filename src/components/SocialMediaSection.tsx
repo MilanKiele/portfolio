@@ -1,3 +1,5 @@
+// social media section
+
 import Image from "next/image";
 import DescriptionSection from "./DescriptionSection";
 
