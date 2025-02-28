@@ -15,10 +15,10 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({
 }) => {
   return (
     <div className="mb-10 text-center">
-      <h3 className="text-gray-700 text-lg font-semibold uppercase">
+      <p className="text-gray-700 text-lg font-semibold uppercase">
         {subtitle}
-      </h3>
-      <h2 className="text-4xl font-bold text-gray-900">{title}</h2>
+      </p>
+      <p className="text-4xl font-bold text-gray-900">{title}</p>
       <p className="text-lg font-normal text-gray-500 mx-auto w-full px-4 lg:w-1/2 py-4">
         {description}
       </p>

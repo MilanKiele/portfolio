@@ -16,19 +16,19 @@ const PROJECTS = [
     img: "/image/blog2.svg",
     title: "Websites Like This One",
     desc: "Creating modern, responsive, and functional websites tailored to user needs and experience.",
-    link: "", // No link provided
+    link: "#", // No link provided
   },
   {
     img: "/image/blog3.svg",
     title: "Blockchain Contract Development on Solana",
     desc: "Building decentralized applications and smart contracts on the Solana blockchain.",
-    link: "", // No link provided
+    link: "#", // No link provided
   },
   {
     img: "/image/blog4.svg",
     title: "SaaS Platform",
     desc: "Developing a software as a service platform to streamline business operations and processes.",
-    link: "", // No link provided
+    link: "#", // No link provided
   },
   {
     img: "/image/blog-1.svg",
@@ -40,7 +40,7 @@ const PROJECTS = [
     img: "/image/blog2.svg",
     title: "Audio AI - Separating Multiple Speakers",
     desc: "Building an AI-based system for separating multiple speakers in audio recordings.",
-    link: "", // No link provided
+    link: "#", // No link provided
   },
 ];
 

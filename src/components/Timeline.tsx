@@ -54,9 +54,9 @@ const HorizontalTimeline: React.FC = () => {
                 key={index}
                 className={`flex-shrink-0 z-[0] grow-0 w-full max-w-sm shadow-lg rounded-lg p-6 border border-gray-200 transition-transform duration-500 ease-in-out transform scale-100 hover:scale-105`} // Scale on hover
               >
-                <h3 className="text-lg font-bold text-gray-700">
+                <p className="text-lg font-bold text-gray-700">
                   {event.date}
-                </h3>
+                </p>
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">
                   {event.title}
                 </h4>

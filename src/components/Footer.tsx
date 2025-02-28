@@ -12,17 +12,17 @@ export function Footer() {
           <p className="text text-center text-low text-gray-800">
             &copy; {CURRENT_YEAR} Milan Kiele. All rights reserved.
           </p>
-          <ul className="flex gap-8 items-center">
+          <div className="flex gap-8 items-center">
             <SocialMediaContainer size={32} />
-          </ul>
-          <ul className="flex gap-8 items-center">
+          </div>
+          <div className="flex gap-8 items-center">
             <a
               href="/legal"
               className="text text-low font-normal text-gray-800 hover:text-black transition-colors"
             >
               Legal Information
             </a>
-          </ul>
+          </div>
         </div>
       </div>
     </footer>

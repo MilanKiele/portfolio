@@ -1,14 +1,11 @@
-// project card
-
 import Image from "next/image";
 import Link from "next/link";
 
-// Define the types for the props
 interface ProjectCardProps {
-  img: string; // Assuming img is a string (URL or path to the image)
-  title: string; // Title is a string
-  desc: string; // Description is a string
-  link?: string; // link is an optional string (it might not be provided)
+  img: string;
+  title: string;
+  desc: string;
+  link?: string; // link ist optional
 }
 
 function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
@@ -26,12 +23,13 @@ function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
         />
       </div>
       <div className="p-6">
-        <a className="text-blue-gray-900 hover:text-gray-800 transition-colors">
-          <h5 className="font-semibold text-xl mb-2">{title}</h5>
-        </a>
+        <p className="font-semibold text-xl mb-2 text-blue-gray-900">
+          {title}
+        </p>
         <p className="text-base font-normal text-gray-500 mb-6">{desc}</p>
 
-        {link && (
+        {/* Button nur anzeigen, wenn der Link existiert und nicht "#" ist */}
+        {link && link !== "#" && (
           <Link
             href={link}
             target="_blank"

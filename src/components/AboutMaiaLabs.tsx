@@ -28,9 +28,9 @@ const AboutMaiaLabs: React.FC = () => {
 
       {/* Text About MaiaLabs: Mission Section */}
       <div className="text-center max-w-2xl mx-auto mb-10">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+        <p className="text-2xl font-semibold text-gray-800 mb-4">
           Building my company toward success
-        </h3>
+        </p>
         <p className="text-lg text-gray-700 mb-4">
           MaiaLabs was founded in 2024 by Milan Kiele with a mission to develop
           innovative content. The focus is on creating cutting-edge technology

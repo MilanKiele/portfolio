@@ -73,10 +73,10 @@ const ContactForm = () => {
           <div className="p-6 grid grid-cols-1 lg:grid-cols-7 md:gap-10">
             {/* Contact Information Section */}
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
-              <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white mb-2">
+              <p className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white mb-2">
                 Contact Information
-              </h4>
-              <p className="block antialiased font-sans font-normal text-inherit mx-auto mb-8 text-base text-gray-200">
+              </p>
+              <p className="block antialiased font-sans font-normal text-inherit mx-auto mb-8 text-base text-white">
                 Answer may take a while. Please be patient.
               </p>
               <div className="flex my-2 gap-5">
@@ -90,9 +90,9 @@ const ContactForm = () => {
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"></path>
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"></path>
                 </svg>
-                <h6 className="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-white mb-2">
+                <p className="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-white mb-2">
                   mail@milankiele.com
-                </h6>
+                </p>
               </div>
             </div>
 
