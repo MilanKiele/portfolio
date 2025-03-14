@@ -1,5 +1,3 @@
-// contactform
-
 "use client";
 
 import React, { useState } from "react";
@@ -61,7 +59,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="px-8 py-16">
+    <section className="container-x px-8 py-16">
       <DescriptionSection
         title="Reach out to me"
         subtitle="Contact"

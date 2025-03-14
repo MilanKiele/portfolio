@@ -1,5 +1,3 @@
-// skillcard
-
 import React from "react";
 
 interface SkillCardProps {
@@ -16,7 +14,6 @@ export function SkillCard({ icon: Icon, title, children }: SkillCardProps) {
       </div>
       <p className="skill-card-title">{title}</p>
       <p className="skill-card-description">{children}</p>{" "}
-      {/* children will be used here */}
     </div>
   );
 }

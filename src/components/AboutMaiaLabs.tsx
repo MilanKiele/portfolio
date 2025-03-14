@@ -1,14 +1,10 @@
-// about
-
-"use client";
-
 import React from "react";
 import DescriptionSection from "./DescriptionSection";
 import Image from "next/image";
 
 const AboutMaiaLabs: React.FC = () => {
   return (
-    <section className="py-16 px-6">
+    <section className="container-x py-16 px-6">
       <DescriptionSection
         title="Start of a Company"
         subtitle="MaiaLabs"

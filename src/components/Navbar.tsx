@@ -1,10 +1,10 @@
-// navbar
-
 "use client";
 
 import React from "react";
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { navbarConfig } from "@/constants";
+import { title } from "@/constants";
 
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -19,44 +19,13 @@ export function Navbar() {
     });
   }, []);
 
-  const navbarConfig = [
-    {
-      name: "Home",
-      id: "Home",
-    },
-    {
-      name: "Skills",
-      id: "Goal",
-    },
-    // {
-    //   name: "Timeline",
-    //   id: "Timeline",
-    // },
-    {
-      name: "Projects",
-      id: "Projects",
-    },
-    {
-      name: "Social",
-      id: "Social",
-    },
-    {
-      name: "MaiaLabs",
-      id: "MaiaLabs",
-    },
-    {
-      name: "Contact",
-      id: "Contact",
-    },
-  ];
-
   return (
     <nav className="sticky top-0 z-50 bg-white bg-opacity-80 backdrop-blur-md border-b border-white/80 w-full rounded-none px-4 py-4 backdrop-saturate-200">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-lg font-bold text-gray-900">
           <p className="block antialiased font-sans text-blue-gray-900 text-2xl font-bold">
-            Milan Kiele
+            {title}
           </p>
         </Link>
 

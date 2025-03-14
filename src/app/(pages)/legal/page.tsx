@@ -1,11 +1,9 @@
-// Legal page.tsx
-
 import DescriptionSection from "@/components/DescriptionSection";
 
 export default function LegalInformation() {
   return (
     <>
-      <section className="large-section bg-white px-8 py-12">
+      <section className="large-section bg-white px-8 py-12 container">
         <DescriptionSection
           title="Terms and Conditions"
           subtitle="Legal Information"

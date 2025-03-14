@@ -1,5 +1,3 @@
-// email api
-
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -8,7 +6,7 @@ const resend = new Resend(api_key);
 const fromEmail = process.env.FROM_EMAIL as string;
 const toEmail = process.env.TO_EMAIL as string;
 
-// any
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function POST(req: any) {
   const { firstName, lastName, email, message } = await req.json();
 

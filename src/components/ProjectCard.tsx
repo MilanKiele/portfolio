@@ -5,7 +5,7 @@ interface ProjectCardProps {
   img: string;
   title: string;
   desc: string;
-  link?: string; // link ist optional
+  link?: string;
 }
 
 function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
