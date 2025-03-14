@@ -15,10 +15,6 @@ export const navbarConfig = [
     name: "Social",
     id: "Social"
   },
-  // {
-  //   name: "MaiaLabs",
-  //   id: "MaiaLabs",
-  // },
   {
     name: "Contact",
     id: "Contact"
